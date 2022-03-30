@@ -68,17 +68,24 @@ body{
     width: 13rem;
     text-align: center;
     align-self: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 2rem;
     background-color: aqua;
+    border: none;
+
 }
 
+.Get-started:hover{
+    transition: 2s;
+    text-decoration-color: azure;
+    background-color: blue;
+}
 .third-div{
     display: flex;
     flex-direction: row;
     width: 50rem;
     align-self: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 4rem auto;
     justify-content: space-between;
 
@@ -125,7 +132,7 @@ body{
     flex-direction: row;
     width: 70rem;
     align-self: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     /* margin: 4rem auto; */
     justify-content: space-between;
 }
@@ -152,58 +159,122 @@ body{
 
 .nav-flexB2P2{
     max-width: 30rem;
+    opacity: 80%;
 }
 
 .nav-flexB2P3{
     max-width: 33rem;
+    opacity: 80%;
 }
 
 .nav-baseB{
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-color: aqua;
+    opacity: 60%;
+    font-size: 12px;
+}
+
+.fourthdiv{
+    display: flex;
+    max-width: 70rem;
+    /* border: 1px solid red; */
+    align-self: center;
+    justify-content: space-between;
+    margin: 3rem;
+    
+}
+.fourth-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 20rem;
+    background-color: rgb(3, 43, 82);
+    padding: 1rem;
+    font-size: 12px;
+    margin: 2rem;
 
 }
 
-.nav-flexC{
+.profile-div{
     display: flex;
     flex-direction: row;
-    width: 60rem;
-    border: 2px solid white;
+    max-width: 10rem;
+    font-size: 10px;
+    max-height:auto;
+    /* margin: 2rem; */
+    align-self:left;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.profilecontent{
+    line-height: 0%;
+    /* border: 1px solid red; */
+    margin: 0.7rem auto;
+}
+.profileone{
+    max-width: 2rem;
+}
+.profileone img{
+    width: 100%;
+    margin: 0.8rem auto;
+    border-radius: 100%;
+}
+
+.fifthdiv{
+    display: flex;
+    flex-direction: column;
     align-self: center;
+    max-width: 40rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: rgb(3, 43, 82);
+    margin: 5rem;
+    margin-bottom: -5rem;
+    /* line-height: 0%; */
+    justify-self: center;
+    z-index: 9;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
     justify-content: space-between;
 }
 
-.profile-one{
-    max-width: 18rem;
+.email{
+    height: 1.5rem;
+   border-radius: 2rem;
+   
 }
 
-.profile-oneB{
-    display:flex;
+.item{
+    height: 1.8rem;
+    border-radius: 2rem;
+    text-decoration: none;
+
+}
+
+.footerdiv{
+    display: flex;
     flex-direction: row;
-    max-width: 10rem;
-    border: 1.5px solid red;
-    justify-content: flex-start;
-    height: 4rem;
-
+    max-width: 80rem;
+    justify-content: space-between;
+    /* align-self: center; */
+    padding: 2rem;
+    align-content: center;
+   
 }
 
-.buttom-profile{
-    border: 1.5px solid red;
-}
-.image-profile img{
-    width: 50%;
-    height: 100;
-    border: 1.5px solid red;
-    margin: 0.5rem 0rem 1rem;
+.divfooter{
+    background-color: midnightblue;
+    border: 1px solid red;
+    padding-top: 20rem;
 }
 
-.profile-text{
-    font-size: 9px;
-    font-weight: 700;
-}
-
-.profile-text2{
-    font-size: 9px;
-    font-weight: 400;
+.foot-p{
+    max-width: 18rem;
 }
